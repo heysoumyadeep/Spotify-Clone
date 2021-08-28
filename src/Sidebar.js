@@ -25,10 +25,10 @@ function Sidebar() {
             {playlists?.items?.map(playlist => (
                 <SidebarOptions items={playlist.name} />
             ))}
-{/* 
+            
             <SidebarOptions items="Indian" />
             <SidebarOptions items="Rock" />
-            <SidebarOptions items="Classic" /> */}
+            <SidebarOptions items="Classic" />
 
 
         </div>

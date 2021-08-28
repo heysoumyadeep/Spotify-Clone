@@ -1,68 +1,205 @@
-.footer{
+.footer {
     position: fixed;
     display: flex;
     justify-content: space-between;
     bottom: 0;
-    height: 48px;
-    width: 98%;
+    height: 65px;
+    width: 100%;
     background-color: #282828;
     padding: 20px;
-}
-
-.footer_right * .MuiSlider-root {
-    color: green;
-}
-
-.footer_left{
-    /* border: 1px solid green; */
+    border-top:1px solid black;
+  }
+  
+  /* Album Info */
+  .footer_left {
     flex: 0.3;
     display: flex;
     align-items: center;
     color: white;
     width: 300px;
-}
-
-.footer_albumLogo{
+  }
+  
+  .footer_albumLogo {
     height: 60px;
     width: 60px;
     margin-right: 20px;
-    object-bit: contain;
-}
+    object-fit: contain;
+  }
+  .footer_albumLogo:hover {
+    cursor: pointer;
+  }
+  
+  .footer_songInfo a{
+    text-decoration: none;
+  }
 
-.footer_green{
-    color: #1ed15e;
-}
-
-.footer_songInfo > h4 {
+  .footer_songInfo a > h5 {
+    font-size: 16px;
     margin-bottom: 5px;
-}
-
-.footer_songInfo > p {
+    width: 175px;
+  }
+  
+  .footer_songInfo a > p {
     font-size: 12px;
-}
-
-.footer_center{
-    /* border: 1px solid green; */
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0;
+  }
+  
+  .footer_heartCurrent {
+    margin-left: 5px;
+    font-size: 20px !important;
+    opacity: 0.5;  
+  }
+  
+  .footer_heartCurrent:hover {
+    opacity: 1;
+  }
+  
+  /* Player Controls */
+  .footer_durationContainer {
+    position: absolute;
+    bottom: 10px;
+    padding: 0 auto;
+    margin-left: 30%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+  .footer_durationContainer > span { 
+    margin: 0 auto;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .footer_durationContainer * .MuiSlider-root {
+    margin-top: -2.5px;
+    color: #b3b3b3 !important;
+  }
+  
+  .footer_durationContainer * .MuiSlider-thumb {
+    justify-content: center;
+    display: none;
+  }
+  
+  .footer_durationContainer * .MuiSlider-thumb:hover {
+    color: white;
+    margin-top: -2.5px;
+    display: block;
+  }
+  
+  .footer_durationContainer * .MuiSlider-track {
+    background-color: #b3b3b3;
+    width: 50% !important;
+    height: 5px;
+    border-radius: 10px;
+  }
+  
+  .footer_durationContainer * .MuiSlider-rail {
+    background-color: #535353;
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+  }
+  
+  .footer_durationContainer * .MuiSlider-track:hover {
+    background-color: #1ed15e;
+  }
+  
+  .footer_durationBar {
+    margin: 0 auto;
+    width: 85% !important;
+  }
+  
+  .footer_center {
+    position: relative;
     flex: 0.4;
-    padding: 0px 100px;
+    max-width: 300px;
+    height: fit-content;
+    padding: 0 100px 0 100px !important;
+    margin-top: -5px !important;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 300px
-}
-
-.footer_icon:hover,
-.footer_green:hover{
-    transition: transform 0.25s ease-in-out;
-    transform: scale(1.4) !important;
-}
-
-.footer_right{
-    /* border: 1px solid green; */
+  }
+  
+  .footer_green {
+    color: #1ed15e;
+  }
+  
+  .footer_icon:hover,
+  .footer_green:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+  }
+  
+  .footer_play {
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  
+  /* Volume Controls */
+  .footer_playlistIcon:hover {
+    transition: color 0.2s ease-in-out;
+    color: rgba(255, 255, 255, 1);
+  }
+  .footer_deviceIcon {
+    margin-top: 2px;
+    font-size: 20px !important;
+  }
+  
+  .footer_deviceIcon:hover {
+    transition: color 0.2s ease-in-out;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .footer_volumeIcon:hover {
+    transition: color 0.2s ease-in-out;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .footer_right {
     flex: 0.3;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .footer_right * .MuiSlider-root {
+    width: 100px;
+    margin-top: -2.5px;
+    color: #b3b3b3 !important;
+  }
+  
+  .footer_rightContainer *  .MuiSlider-thumb {
+    justify-content: center;
+    display: none;
+  }
+  
+  .footer_rightContainer:hover *  .MuiSlider-thumb {
     color: white;
-}
+    margin-top: -2.5px;
+    display: block;
+  }
+  
+  .footer_rightContainer * .MuiSlider-track {
+    width: 50px;
+    height: 5px;
+    border-radius: 10px;
+  }
+  
+  .footer_rightContainer * .MuiSlider-rail {
+    width: 100px;
+    height: 5px;
+    border-radius: 10px;
+  }
+  
+  .footer_rightContainer:hover * .MuiSlider-track {
+    background-color: #1ed15e;
+  }
+  
+  .footer_rightContainer {
+    padding-left: 50%;
+  }

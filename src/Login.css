@@ -5,8 +5,9 @@
     background-color: black;
 }
 
-.login > img{
-    width: 100%;
+.logo{
+    width: 100vh;
+    margin-top: 120px;
 }
 
 .login > a{
@@ -16,4 +17,24 @@
     font-weight: 800;
     color: white;
     text-decoration: none;
+}
+
+.dev_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.dev_info > p{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
+.gitHubProfLogo {
+    height: 20px;
+    width: 20px;
 }
