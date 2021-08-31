@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Spotify Clone - Web Player
 
 <div><a href=""><img src="./Screenshot (21).png" alt='Banner'><a/></div>
 
