@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/heysoumyadeep/Spotify-Clone/static/css/main.d9f5cf98.chunk.css",
-    "main.js": "/heysoumyadeep/Spotify-Clone/static/js/main.beb6b251.chunk.js",
-    "main.js.map": "/heysoumyadeep/Spotify-Clone/static/js/main.beb6b251.chunk.js.map",
-    "runtime-main.js": "/heysoumyadeep/Spotify-Clone/static/js/runtime-main.94ac5c0f.js",
-    "runtime-main.js.map": "/heysoumyadeep/Spotify-Clone/static/js/runtime-main.94ac5c0f.js.map",
-    "static/js/2.ae969e1f.chunk.js": "/heysoumyadeep/Spotify-Clone/static/js/2.ae969e1f.chunk.js",
-    "static/js/2.ae969e1f.chunk.js.map": "/heysoumyadeep/Spotify-Clone/static/js/2.ae969e1f.chunk.js.map",
-    "static/js/3.78856527.chunk.js": "/heysoumyadeep/Spotify-Clone/static/js/3.78856527.chunk.js",
-    "static/js/3.78856527.chunk.js.map": "/heysoumyadeep/Spotify-Clone/static/js/3.78856527.chunk.js.map",
-    "index.html": "/heysoumyadeep/Spotify-Clone/index.html",
-    "static/css/main.d9f5cf98.chunk.css.map": "/heysoumyadeep/Spotify-Clone/static/css/main.d9f5cf98.chunk.css.map",
-    "static/js/2.ae969e1f.chunk.js.LICENSE.txt": "/heysoumyadeep/Spotify-Clone/static/js/2.ae969e1f.chunk.js.LICENSE.txt"
+    "main.css": "/Spotify-Clone/static/css/main.d9f5cf98.chunk.css",
+    "main.js": "/Spotify-Clone/static/js/main.beb6b251.chunk.js",
+    "main.js.map": "/Spotify-Clone/static/js/main.beb6b251.chunk.js.map",
+    "runtime-main.js": "/Spotify-Clone/static/js/runtime-main.555e01a7.js",
+    "runtime-main.js.map": "/Spotify-Clone/static/js/runtime-main.555e01a7.js.map",
+    "static/js/2.48c55264.chunk.js": "/Spotify-Clone/static/js/2.48c55264.chunk.js",
+    "static/js/2.48c55264.chunk.js.map": "/Spotify-Clone/static/js/2.48c55264.chunk.js.map",
+    "static/js/3.78856527.chunk.js": "/Spotify-Clone/static/js/3.78856527.chunk.js",
+    "static/js/3.78856527.chunk.js.map": "/Spotify-Clone/static/js/3.78856527.chunk.js.map",
+    "index.html": "/Spotify-Clone/index.html",
+    "static/css/main.d9f5cf98.chunk.css.map": "/Spotify-Clone/static/css/main.d9f5cf98.chunk.css.map",
+    "static/js/2.48c55264.chunk.js.LICENSE.txt": "/Spotify-Clone/static/js/2.48c55264.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.94ac5c0f.js",
-    "static/js/2.ae969e1f.chunk.js",
+    "static/js/runtime-main.555e01a7.js",
+    "static/js/2.48c55264.chunk.js",
     "static/css/main.d9f5cf98.chunk.css",
     "static/js/main.beb6b251.chunk.js"
   ]
