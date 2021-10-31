@@ -1,6 +1,6 @@
 # Spotify Clone - Web Player
 
-<div><a href=""><img src="./Screenshot (21).png" alt='Banner'><a/></div>
+<div><a href="https://heysoumyadeep.github.io/Spotify-Clone/"><img src="./Screenshot (21).png" alt='Banner'><a/></div>
 
 ---
 
